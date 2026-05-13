@@ -1,0 +1,39 @@
+# --- Executáveis e Binários ---
+main
+main_test
+*.exe
+*.out
+*.app
+
+# --- Objetos e Bibliotecas ---
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+
+# --- Pastas de Compilação ---
+# Se você usar CMake ou criar uma pasta para organizar os builds
+build/
+bin/
+dist/
+
+# --- IDEs e Editores ---
+# Visual Studio Code
+.vscode/
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+# Xcode
+*.xcodeproj/
+# Arquivos temporários do Vim ou Emacs
+*~
+*.swp
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
